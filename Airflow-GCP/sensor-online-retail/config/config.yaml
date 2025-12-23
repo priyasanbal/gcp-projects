@@ -1,0 +1,11 @@
+gcp:
+  project_id: de-online-retail
+  raw_bucket: sensor-onlinestore-rawdata
+  processed_bucket: sensor-onlinestore-processed-data
+  bq_dataset: sensor_online_retail
+  bq_table: sensor-online-retailfact
+
+paths:
+  
+  gcs_raw_online_retail: sensor-retail/sensor-ingestion-23-12-2025/sensor_online_retail.csv
+  gcs_processed_online_retail: retail/retail_cleaned.parquet

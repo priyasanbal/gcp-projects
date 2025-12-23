@@ -1,0 +1,11 @@
+gcp:
+  project_id: de-online-retail
+  raw_bucket: de-etl-onlinestore-rawdata
+  processed_bucket: de-etl-onlinestore-processed-data
+  bq_dataset: online_retail_dw
+  bq_table: online_retail_fact
+
+paths:
+  
+  gcs_raw_online_retail: retail/ingestion-22-12-2025/online_retail.csv
+  gcs_processed_online_retail: retail/retail_cleaned.parquet
