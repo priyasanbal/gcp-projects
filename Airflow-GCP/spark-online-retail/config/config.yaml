@@ -1,0 +1,13 @@
+gcs:
+  raw_data: gs://superstore-retail-code/raw-data/
+  processed_orders: gs://superstore-retail-code/superstore-processed/order/
+  processed_customers: gs://superstore-retail-code/superstore-processed/customer/
+  country_sales_output: gs://superstore-retail-code/superstore-processed/country-sales/
+
+bigquery:
+  project: de-online-retail
+  dataset: superstore_retail_dw
+  orders_table: de-online-retail:superstore_retail_dw.orders
+  customers_table: de-online-retail:superstore_retail_dw.customers
+  country_sales_table: de-online-retail:superstore_retail_dw.country_sales
+
